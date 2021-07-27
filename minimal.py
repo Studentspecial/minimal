@@ -12,7 +12,7 @@ settings.configure(
 
 
 def index(request):
-    return HttpResponse('<h1>A minimal Django response!</h1>')
+    return HttpResponse('<h1>FINALLY</h1>')
 
 urlpatterns = [
     url(r'^$', index),
