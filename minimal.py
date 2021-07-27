@@ -13,7 +13,6 @@ settings.configure(
 
 def index(request):
     return HttpResponse('<h1>Minor MINI TINY RESPONSE</h1>')
-
 urlpatterns = [
     url(r'^$', index),
 ]
